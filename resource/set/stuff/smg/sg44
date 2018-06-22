@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{tag "assaultrifle"}
+	{filling "ammo pistol" 25}
+	{mass 5}
+	{entity "fedorov_avtomat"}
+	{fireSound	"rifle/johnson_shot/"}
+	{reloadSound "mp44"}	
+
+	{range 55 60}
+	{healthDamage 180}
+	("recoveryTime" r(400))
+	("burst_short")
+	("accuracy_carabine")
+ 	("speed" s(685))
+}

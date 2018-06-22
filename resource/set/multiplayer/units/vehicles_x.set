@@ -1,0 +1,130 @@
+;----- Extra -----
+
+
+;같컃eroes같�													; 150 MP
+
+{"crusaderics"  		("extra" t() sc(320.00) cw(0) cp(15))}	;2
+{"cromwell_mk_vi"  		("extra" t() sc(600.00) cw(0) cp(15))}	;4
+{"m4a4_tulip"  			("extra" t() sc(600.00) cw(0) cp(15))}	;4
+{"churchill_crocodile"  ("extra" t() sc(900.00) cw(0) cp(30))}	;5
+{"churchill_avre"  		("extra" t() sc(1000.00) cw(0) cp(30))}	;6
+{"black_prince"  		("extra" t() sc(1350.00) cw(0) cp(30))}	;9
+
+{"panzerjager"          ("extra" t() sc(180.00) cw(0) cp(10))}	;4
+{"nebelwerfer41"        ("extra" t() sc(440.00) cw(0) cp(10))}	;4
+{"stuh42"	        	("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"pak43"        		("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"np_sdkfz251_1w"       ("extra" t() sc(900.00) cw(0) cp(5))}	;5
+{"veteran_tiger"        ("extra" t() sc(1400.00) cw(0) cp(30))}	;7
+{"sturmtiger"           ("extra" t() sc(1400.00) cw(0) cp(35))}	;9
+
+{"ke-nu"                ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"type_97_150mm"        ("extra" t() sc(450.00) cw(0) cp(10))}	;3
+{"chi-ha120"        	("extra" t() sc(450.00) cw(0) cp(15))}	;3
+{"na-to"        	    ("extra" t() sc(320.00) cw(0) cp(15))}	;2
+{"type4_200mm"        	("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"ho-ri_1"        		("extra" t() sc(1350.00) cw(0) cp(40))}	;9
+
+{"m3"        	        ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"bs3"        			("extra" t() sc(700.00) cw(0) cp(15))}	;4
+{"kv2"        			("extra" t() sc(750.00) cw(0) cp(30))}	;5
+{"bm_8_24"        		("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"t34_1"        	    ("extra" t() sc(700.00) cw(0) cp(15))}	;6
+{"203b4"        		("extra" t() sc(2000.00) cw(0) cp(40))}	;10
+
+{"m8_howitzer"        	("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"m15a1"	            ("extra" t() sc(300.00) cw(0) cp(10))}	;2
+{"m4a3_zippo"        	("extra" t() sc(480.00) cw(0) cp(15))}	;3
+{"m4a3e8_fury"        	("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"m4a3_105"          	("extra" t() sc(750.00) cw(0) cp(15))}  ;5
+{"155mm_longtom"        ("extra" t() sc(1000.00) cw(0) cp(20))} ;6
+{"m26e4"      			("extra" t() sc(1350.00) cw(0) cp(40))} ;9
+
+{"csaba39m"	             ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"sdkfz250_9_hun"	     ("extra" t() sc(300.00) cw(0) cp(10))}	;1
+{"turan2"                ("extra" t() sc(370.00) cw(0) cp(15))}	;3
+{"hetzer_hun"        	 ("extra" t() sc(370.00) cw(0) cp(15))}	;3
+{"np_sig33"        	     ("extra" t() sc(440.00) cw(0) cp(15))}	;4
+{"sturmpz1"        		 ("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"brummbar"        	     ("extra" t() sc(1200.00) cw(0) cp(35))};8
+{"pz6bh"                ("extra" t() sc(2100.00) cw(0) cp(40))}	;10
+
+{"2_inch_mortar_mk_ii"	 ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"renault_aa"	         ("extra" t() sc(250.00) cw(0) cp(10))}	;2
+{"b1bis_2"        		 ("extra" t() sc(600.00) cw(0) cp(15))}	;4
+{"amx-13-90"             ("extra" t() sc(800.00) cw(0) cp(15))} ;5
+{"155gpf2"               ("extra" t() sc(500.00) cw(0) cp(15))} ;6
+{"amx50-100"        	 ("extra" t() sc(1500.00) cw(0) cp(35))} ;8
+
+{"maxim_ind"        	 ("extra" t() sc(75.00) cw(0) cp(2.5))}	;1
+{"76mm_m1909_fin"	     ("extra" t() sc(350.00) cw(0) cp(10))}	;2
+{"bt42"        		     ("extra" t() sc(440.00) cw(0) cp(15))}	;3
+{"kv1_41_fin"            ("extra" t() sc(750.00) cw(0) cp(15))}	;5
+{"nebelwerfer42"         ("extra" t() sc(750.00) cw(0) cp(10))} ;5
+{"su152"        		 ("extra" t() sc(1000.00) cw(0) cp(20))};6
+{"np_ml20_fin_veteran"    ("extra" t() sc(1300.00) cw(0) cp(20))};6
+
+{"l35lf"	             ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"brixia45"	             ("extra" t() sc(300.00) cw(0) cp(10))}	;2
+{"pz3nita"        	     ("extra" t() sc(440.00) cw(0) cp(15))}	;3
+{"3ro"        	         ("extra" t() sc(440.00) cw(0) cp(15))}	;3
+{"m10525"        		 ("extra" t() sc(600.00) cw(0) cp(15))}	;4
+{"m7546"                 ("extra" t() sc(1000.00) cw(0) cp(15))};7
+{"obice210"              ("extra" t() sc(1300.00) cw(0) cp(15))};7
+{"elefantita"        	 ("extra" t() sc(1600.00) cw(0) cp(32))};8
+
+{"pz1a"	                 ("extra" t() sc(150.00) cw(0) cp(3))}	;1
+{"willysat_chn"	         ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"np_su12"	             ("extra" t() sc(300.00) cw(0) cp(10))}	;2
+{"a19"        			 ("extra" t() sc(700.00) cw(0) cp(15))}	;4
+{"wz111_1"        	     ("extra" t() sc(1400.00) cw(0) cp(30))};8
+
+{"m3a1scout_us"	         ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"boyes_gun_carrier"	 ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"qf13"	                 ("extra" t() sc(150.00) cw(0) cp(5))}	;1
+{"bofors_anz"	         ("extra" t() sc(300.00) cw(0) cp(10))}	;2
+{"stag_hound"        	 ("extra" t() sc(440.00) cw(0) cp(15))}	;3
+{"gun_carrier_3_inch"    ("extra" t() sc(440.00) cw(0) cp(15))}	;3
+{"staghound_e1"        	 ("extra" t() sc(600.00) cw(0) cp(15))}	;5
+{"churchill_mk_v_cs"     ("extra" t() sc(800.00) cw(0) cp(25))} ;5
+{"sexton"        	     ("extra" t() sc(1300.00) cw(0) cp(25))};8
+
+
+;같캚rtillery같�
+
+{"vickers"  			("extra" t() sc(750.00) cw(0) cp(10))}
+{"pdr25"  			    ("extra" t() sc(600.00) cw(0) cp(10))}
+{"bl6"  			    ("extra" t() sc(800.00) cw(0) cp(10))}
+{"land_mattress"  		("extra" t() sc(1150.00) cw(0) cp(10))}
+{"universal_carrier"    ("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"flak37"  			    ("extra" t() sc(700.00) cw(0) cp(10))}
+{"lefh18"  			    ("extra" t() sc(650.00) cw(0) cp(10))}
+{"sfh18"  			    ("extra" t() sc(800.00) cw(0) cp(10))}
+{"steyr_rso"  			("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"type4_75mm"  			("extra" t() sc(550.00) cw(0) cp(10))}
+{"t91_105m"  			("extra" t() sc(500.00) cw(0) cp(10))}
+{"type96_150mm"  		("extra" t() sc(700.00) cw(0) cp(10))}
+
+{"k61"  			    ("extra" t() sc(250.00) cw(0) cp(10))}
+{"m30_1938"  		  	("extra" t() sc(700.00) cw(0) cp(10))}
+{"d1"  				    ("extra" t() sc(800.00) cw(0) cp(10))}
+{"t20"  			    ("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"bofors"  			    ("extra" t() sc(275.00) cw(0) cp(5))}
+{"m2a1l"  			    ("extra" t() sc(650.00) cw(0) cp(10))}
+{"m114"  			    ("extra" t() sc(800.00) cw(0) cp(10))}
+{"gmc_cckw"  			("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"bofors_hun"  			("extra" t() sc(275.00) cw(0) cp(10))}
+{"krupp_protze"  		("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"renault_t"  			("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"np_ml20_fin_veteran)" ("extra" t() sc(1300.00) cw(0) cp(20))}
+{"t20_fin"  			("extra" t() sc(0.00) cw(0) cp(0))}
+
+{"fiat35"  			    ("extra" t() sc(0.00) cw(0) cp(0))}
+
+

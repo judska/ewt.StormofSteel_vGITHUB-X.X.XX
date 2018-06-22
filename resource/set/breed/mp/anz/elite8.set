@@ -1,0 +1,55 @@
+{breed
+	{skin "eng-afr-rfl-ind"}
+	{portrait "eng_elite2"}
+	{nationality eng}
+	{icon "elite4"}
+	{icon_priority 3}
+	{armors
+		{head helmet_eng_afr}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_tier3"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "em3_trench" filled}
+		{item "ammo rifle" 100}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

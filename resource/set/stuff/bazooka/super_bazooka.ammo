@@ -1,0 +1,11 @@
+{from "pattern rpg_ammo"
+	{entity "bazooka_ammo"}
+	{view "bazooka_ammo"
+		{tail "bazooka_tail" "tail"}
+	} 
+	{damage blastwave
+		{energy 1.00}
+		{area 2.5 5.0}
+	}
+}
+
