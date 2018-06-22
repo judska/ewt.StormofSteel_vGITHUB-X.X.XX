@@ -1,0 +1,165 @@
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium" "-turret" "opened" "vision_vehicle_high" "muzzle_medium_sides"}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body2"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "shield1"
+		{thickness 32}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "shield2"
+		{thickness 20}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "shield3"
+		{thickness 20}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "shield4"
+		{thickness 20}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "shield5"
+		{thickness 15}
+		{component "body"}
+		{tags "body"}
+	}
+	
+	("armor_spa_heavy" armor(40 32 32 20))
+	("armor_engine"  t(30 32 32 20))
+
+	{extender "enumerator"}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_gunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_com"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_com"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "crew"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human_visible_anm" place(driver)		door1(emit1) door2(emit2) anm_left(driver) anm_right(driver) visor(driver))
+	("crew_human_visible_anm" place(gunner)		door1(emit1) door2(emit2) anm_left(gunner) anm_right(gunner) visor(main))
+	("crew_human_visible_anm" place(commander)	door1(emit1) door2(emit2) anm_left(commander) anm_right(commander) visor(main))
+	("crew_human_visible_anm" place(gunner2)	door1(emit1) door2(emit2) anm_left(crew) anm_right(crew) visor(main))
+	("gunner_visible")
+	{placer 
+		{place "driver" {openForCrush 0}}
+		{place "gunner" {openForCrush 0}}
+	}	
+	{sensor
+		{visor "main"
+			{bone "foresight1"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet89 ap" 16}
+			{item "ammo bullet89 fg" 40}
+			{item "bren" filled {user "mgun"}}
+			{item "ammo mgun" 1500}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+            {weapon "88mm_oqfmk2_1" filling "ammo bullet89 fg" 1}
+			{charger "gunner"}
+			{StationaryFiring}
+			("abm_howitzer")
+		}
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{basic}
+		}
+	}
+	{mass 23000}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.6))
+		{Locomotion ("locomotion")
+			{MaxSpeed   27}
+			{maxSpeedAtMaxTurn 12}
+			{StartTime  16}
+			{TurnStart  1.8}			
+			{TurnTime   11}
+			{TurnRadius 9} 
+    		{TurnStop   0.8}
+			{BrakeTime  1.5}
+			{StopTime   2.5}
+			{Gears  0.2 0.5 1}
+			{RearGears  0.34}		
+		}
+		{FuelBag
+			{volume 660 }	
+			{rate	130 }   
+			{remain 660 }
+			{fuel "fuel"}
+		}
+		{speed
+        			{Normal  10}
+        			{Slow  16}
+    		}
+		{DisableMoveWhileFiring}
+	}
+	{Placer
+	         {place "attach01"
+	            {entity "can"}
+	            {Linkbone "attach01"}
+	            {handlebone "basis"}
+	            {obstacle disable}
+	         }
+	         {place "attach02"
+	                 {entity "can"}
+	                  {Linkbone "attach02"}
+	                  {handlebone "basis"}
+	                  {obstacle disable}
+	         }
+	}
+	{Extension "sexton.mdl"}
+}

@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "light_glass"}
+	{blend blend}
+}

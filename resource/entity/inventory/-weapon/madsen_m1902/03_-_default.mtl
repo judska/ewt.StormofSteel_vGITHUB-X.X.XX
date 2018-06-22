@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "madsen1"}
+	{blend none}
+}

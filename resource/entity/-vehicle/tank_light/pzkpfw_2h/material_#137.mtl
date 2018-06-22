@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "gun_room"}
+	{bump "gun_n"}
+	{specular "gun_c"}
+	{color "230 230 230 125"}
+	{blend none}
+}

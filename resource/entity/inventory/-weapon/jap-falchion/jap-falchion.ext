@@ -1,0 +1,6 @@
+	(include "/properties/stuff_small.ext")
+	{extension "jap-falchion.mdl"}
+	{volume "body"
+		{able {contact}}
+   	}
+   	{props "physics_damping" "jap-falchion"}

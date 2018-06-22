@@ -1,0 +1,100 @@
+;Exported by: Filippo
+;Date:        Sat Aug 30 21:05:47 2014
+;File:        C:\3dsmax7\scenes\madsen.max
+{Skeleton
+	{bone "madsen_m1902"
+		{parameters "CommonMesh ;Type = actor ;Model = entity/invetory/weapon/madsen_m1902;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "madsen_m1902.ply"}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0.999983	-0.00579479
+				0	0.00579479	0.999983
+				-6.57618	-2.21616	0.497856
+			}
+		}
+		{bone "foresight3"
+			{Position 17.4969	1.50588	0.0542763}
+		}
+		{bone "body"
+			{Matrix34
+				0	0	1
+				1	0	0
+				0	1	0
+				6.36075	1.733076	0.249367
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.31458 4.65867 1.49908}
+	{Bone "madsen_m1902"}
+	{Matrix34
+		0	0.0336023	5.79524
+		5.96973	0.000338816	0
+		-0.000300449	5.29374	-0.0306945
+		-2.47424	-0.10258	0.202249
+	}
+}
+{Volume "select"
+	{Box 1.31458 4.65867 1.49908}
+	{Bone "madsen_m1902"}
+	{Matrix34
+		0	0.031471	5.42765
+		5.59108	0.000317325	0
+		-0.000281391	4.95796	-0.0287476
+		-2.47425	0.149098	0.200789
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.62818	-6.3698	32.1661}
+			{lookat 6.14337	-3.61943	15.6367}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.56448	-2.58428	6.17975}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.63234	-6.4833	32.8271}
+			{lookat 6.12813	-3.62293	15.6366}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.56448	-2.58428	6.17975}
+			}
+		}
+	}
+}

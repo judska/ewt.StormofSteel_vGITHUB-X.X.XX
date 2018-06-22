@@ -1,0 +1,55 @@
+-= Animation: repair, Node body =-
+	Frame 630 {
+		Visibility 1
+		Position	-0.90478	0.580717	18.724
+		Orientation	0 0 0 1
+	}
+	Frame 667 {
+		Visibility 1
+		Position	-0.90478	0.580717	18.724
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node turret =-
+	Frame 460 {
+		Visibility 1
+		Position	-0.472435	-0.580717	8.27756
+		Orientation	0 0 0.0436194 0.999048
+	}
+	Frame 490 {
+		Visibility 1
+		Position	-0.472435	-0.580717	8.27756
+		Orientation	0 0 0.0436194 0.999048
+	}
+-= Animation: repair, Node engine =-
+	Frame 300 {
+		Visibility 1
+		Position	-27.5689	-0.580708	1.04331
+		Orientation	0 0 0 1
+	}
+	Frame 320 {
+		Visibility 1
+		Position	-27.5689	-0.580708	1.04331
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node cover1 =-
+	Frame 300 {
+		Visibility 1
+		Position	4.05511	9.00167	10.1052
+		Orientation	0.865028 0.023989 0.0415503 0.499424
+	}
+	Frame 320 {
+		Visibility 1
+		Position	4.05511	9.00167	10.1052
+		Orientation	0.865028 0.023989 0.0415503 0.499424
+	}
+-= Animation: repair, Node cover2 =-
+	Frame 300 {
+		Visibility 1
+		Position	4.04527	-9.10107	10.1045
+		Orientation	0.983674 -0.00833131 0.0472492 -0.173448
+	}
+	Frame 320 {
+		Visibility 1
+		Position	4.04527	-9.10107	10.1045
+		Orientation	0.983674 -0.00833131 0.0472492 -0.173448
+	}

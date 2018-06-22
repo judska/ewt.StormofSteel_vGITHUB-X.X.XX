@@ -1,0 +1,6 @@
+{actor
+	(include "jap-falchion.ext")
+	{extender "stuff"
+		{item "jap-falchion"}
+	}
+}
