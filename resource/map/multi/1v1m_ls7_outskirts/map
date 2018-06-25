@@ -25,8 +25,8 @@
 		{xform zl 0.29 scale 0.9}
 	}
 	{Entity "crate1" 0x529
-		{Position 5613.99 -473.08}
-		{xform zl -179.76}
+		{Position 5050.32 514.86}
+		{xform zl -52.79}
 	}
 	{Entity "crate3" 0x52b
 		{Position 5972.22 -225.68}
@@ -505,7 +505,7 @@
 		{xform zl -90.04}
 	}
 	{Entity "town_sewerhatch7" 0x1803
-		{Position 5885.51 -499.58}
+		{Position 5927.25 -445.39}
 		{xform zl -92.58}
 	}
 	{Entity "ash_tree_bush2" 0xc5
@@ -21154,8 +21154,8 @@
 		{xform zl 90}
 	}
 	{Entity "border_s3b" 0x2089
-		{Position 5730.77 -1139.25}
-		{xform zl 90}
+		{Position 5748.85 -1039.53}
+		{xform zl -147.92}
 	}
 	{Entity "border_s3b" 0x208a
 		{Position 5455.32 -1200.68}
@@ -21245,7 +21245,7 @@
 		{xform zl 86.72}
 	}
 	{Entity "barrel2" 0x428d
-		{Position 5117.76 275.81}
+		{Position 5221.1 291.75}
 		{xform zl 14.2}
 	}
 	{Entity "barrel2" 0x608e
@@ -24708,6 +24708,55 @@
 	{Entity "barn_annex_facade" 0x42f9
 		{Position 375.05 -76.83}
 		{xform zl 81.04}
+	}
+	{Entity "path_sand2a" 0x543
+		{Position 4612.11 -1729.45}
+		{xform zl 22.53}
+	}
+	{Entity "path_sand2a" 0x550
+		{Position 4793.24 -1906.09}
+		{xform zl 60.03}
+	}
+	{Entity "dot_sack_mg03_ruin" 0x558
+		{Position 5699.74 -1089.89}
+		{xform zl 122.08}
+	}
+	{Entity "sandbag2" 0x569
+		{Position 4725.75 -1014.81}
+		{xform zl 122.37}
+	}
+	{Entity "sandbag2" 0x56e
+		{Position 4737.81 -799.33}
+		{xform zl 66.41}
+	}
+	{Entity "box_sentry" 0x56f
+		{Position 4775.49 -753.74 87}
+		{xform zl 178.33}
+	}
+	{Entity "dot_element_omaha03" 0x570
+		{Position 5196.42 -191.83}
+	}
+	{Entity "dot_element_omaha05" 0x572
+		{Position 5436.77 -173.18}
+	}
+	{Entity "ruin_wall_long1" 0x574
+		{Position 5265.69 -193.88}
+	}
+	{Entity "dot_sack_mg03_ruin" 0x576
+		{Position 5870.98 -445.2}
+		{xform zl 147.88}
+	}
+	{Entity "barrel2" 0x577
+		{Position 4756.38 -302.73}
+		{xform zl 14.2}
+	}
+	{Entity "sandbag2" 0x578
+		{Position -1552.93 264.55}
+		{xform zl 147.47}
+	}
+	{Entity "sandbag2" 0x581
+		{Position -1204.24 -1212.56}
+		{xform zl 30.21}
 	}
 	{Link 0x20d4 {0x20d3 "15"}}
 	{Link 0x20d6 {0x20d3 "2"}}

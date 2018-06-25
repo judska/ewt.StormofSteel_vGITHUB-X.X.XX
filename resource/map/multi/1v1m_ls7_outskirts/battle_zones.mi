@@ -140,7 +140,7 @@
 	{Tags "keep_places_without_door" 0x42b7}
 	{Tags "keep_places_without_door" 0x2118}
 	{Tags "keep_places_without_door" 0x2162}
-	{Environment "single/1/1-dubovka"}
+	{Environment "single/1/2-factory"}
 	{Helpers
 		{reinforcements
 			{scoreTotal 0}
